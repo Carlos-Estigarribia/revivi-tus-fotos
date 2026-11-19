@@ -10,7 +10,7 @@ from gradio_client import Client
 
 
 # Dirección pública del backend de Colab
-BACKEND_URL = "https://9d167ca713db6dbfc1.gradio.live"
+BACKEND_URL =  "https://575d7cf5206832823e.gradio.live"
 
 # Creamos el cliente para conectarnos con Colab
 cliente = Client(BACKEND_URL)
