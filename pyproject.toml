@@ -1,0 +1,18 @@
+[project]
+name = "revivi-tus-fotos"
+version = "0.1.0"
+description = "Aplicación para mejorar fotografías familiares mediante inteligencia artificial"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "gradio",
+    "gradio-client",
+    "pillow",
+]
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
